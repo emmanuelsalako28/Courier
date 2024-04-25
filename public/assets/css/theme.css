@@ -21527,6 +21527,9 @@ ul {
           border-color: var(--wheat);
           border-radius: 10px;
       }
+      #hide-mobile{
+        display: none;
+      }
   }
 /*-----------------------------------------------
 |   User Styles
