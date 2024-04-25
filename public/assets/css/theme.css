@@ -21470,6 +21470,64 @@ ul {
   background-color: #F0F4F9;
 }
 
+@media screen and (max-width: 1000px) {
+  .track-item {
+          text-align: center;
+      }
+      
+      .track-item h1{
+          margin-bottom: 30px;
+      }
+      #track-btn {
+          font-size: 10px;
+          padding: 10px;
+          border-color: var(--bs-danger);
+          color: white;
+          width: 20%;
+          border-radius: 10px;
+          background-color: var(--bs-danger);
+      }
+      
+      #fname {
+          height: 36px;
+          width: 50%;
+      }
+      .tracking-info{
+          display: flex;
+          flex-direction: column;
+          border-width: 1px 1px 1px 1px;
+          border-style: solid ;
+          border-color: var(--wheat);
+          border-radius: 10px;
+      }
+      .shippers-info{
+          margin-top: 5px;
+          padding-left: 10px;
+          padding-top: 10xpx;
+          padding-bottom: 10px;
+      }
+      .shippers-info h1{
+          text-align: center;
+      }
+      .receiver-info{
+          margin-top: 20px;
+          padding-left: 10px;
+          padding-top: 10xpx;
+          padding-bottom: 10px;
+      }
+      .receiver-info h1{
+          text-align: center;
+      }
+  
+      .tracking-infos{
+          display: flex;
+          flex-direction: column;
+          border-width: 1px 1px 1px 1px;
+          border-style: solid ;
+          border-color: var(--wheat);
+          border-radius: 10px;
+      }
+  }
 /*-----------------------------------------------
 |   User Styles
 -----------------------------------------------*/
